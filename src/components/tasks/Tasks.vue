@@ -4,10 +4,10 @@
             <Task v-for="task in tasks" :task="task" :key="task.id" />
         </ul>
     </div>
-</template>
+</template> 
 
 <script setup>
-import Task from './Task.vue'
+import Task from './Task.vue' 
 defineProps({
     tasks: Array,
     show: {

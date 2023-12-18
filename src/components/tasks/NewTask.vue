@@ -8,7 +8,7 @@
 <script setup>
 import { reactive } from "vue";
 
-
+ 
 const newTask = reactive({
     name: '',
     is_completed: false
